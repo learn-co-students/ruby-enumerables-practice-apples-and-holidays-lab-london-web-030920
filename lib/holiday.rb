@@ -16,6 +16,8 @@ require 'pry'
   #   }
   # }
 
+
+
 def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash[:summer][:fourth_of_july][1]
   # return the second element in the 4th of July array
@@ -75,3 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
     # [[nil, nil], [:fourth_of_july], [nil], [:memorial_day]] so use .flatten to remove external array 
     # [nil, nil, :fourth_of_july, nil, :memorial_day] so use .compact to remove the nils
   end 
+
+
+
+  
